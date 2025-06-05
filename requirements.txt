@@ -1,3 +1,5 @@
 fastapi
-pymongo
 uvicorn
+pymongo
+streamlit
+pandas

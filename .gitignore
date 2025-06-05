@@ -1,0 +1,33 @@
+# Ignorer l’environnement virtuel
+venv/
+ENV/
+env/
+.venv/
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers de log et cache
+*.log
+*.sqlite3
+*.db
+.cache/
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Variables d’environnement
+.env
+.env.*
+
+# Config éditeur
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Mac/Linux
+.DS_Store
+Thumbs.db

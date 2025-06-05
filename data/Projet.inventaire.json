@@ -1,0 +1,121 @@
+[{
+  "_id": "cat001",
+  "type": "category",
+  "name": "Périphériques",
+  "description": "Accessoires externes pour PC"
+},
+{
+  "_id": "cat002",
+  "type": "category",
+  "name": "Composants",
+  "description": "Pièces internes comme RAM, SSD, CPU"
+},
+{
+  "_id": "cat003",
+  "type": "category",
+  "name": "Réseau",
+  "description": "Équipements de connectivité réseau"
+},
+{
+  "_id": "cat004",
+  "type": "category",
+  "name": "Stockage",
+  "description": "Supports de stockage internes/externes"
+},
+{
+  "_id": "prod001",
+  "type": "product",
+  "name": "Clavier mécanique RGB",
+  "description": "Clavier avec rétroéclairage RGB",
+  "price": 79.99,
+  "quantity_in_stock": 12,
+  "category_id": "cat001",
+  "date_added": {
+    "$date": "2025-05-19T00:00:00.000Z"
+  },
+  "status": "in_stock"
+},
+{
+  "_id": "prod002",
+  "type": "product",
+  "name": "Disque SSD 1To",
+  "description": "SSD Samsung NVMe",
+  "price": 129.9,
+  "quantity_in_stock": 5,
+  "category_id": "cat002",
+  "date_added": {
+    "$date": "2025-05-17T00:00:00.000Z"
+  },
+  "status": "low_stock"
+},
+{
+  "_id": "prod003",
+  "type": "product",
+  "name": "Carte Mère B550",
+  "description": "Carte mère AMD compatible Ryzen",
+  "price": 149,
+  "quantity_in_stock": 0,
+  "category_id": "cat002",
+  "date_added": {
+    "$date": "2025-05-14T00:00:00.000Z"
+  },
+  "status": "out_of_stock"
+},
+{
+  "_id": "prod004",
+  "type": "product",
+  "name": "Switch 8 ports Gigabit",
+  "description": "Switch réseau TP-Link",
+  "price": 49.99,
+  "quantity_in_stock": 20,
+  "category_id": "cat003",
+  "date_added": {
+    "$date": "2025-05-10T00:00:00.000Z"
+  },
+  "status": "in_stock"
+},
+{
+  "_id": "prod005",
+  "type": "product",
+  "name": "Disque Dur Externe 2To",
+  "description": "Disque externe USB 3.0",
+  "price": 89,
+  "quantity_in_stock": 8,
+  "category_id": "cat004",
+  "date_added": {
+    "$date": "2025-05-05T00:00:00.000Z"
+  },
+  "status": "low_stock"
+},
+{
+  "_id": "user001",
+  "type": "user",
+  "username": "admin",
+  "role": "manager",
+  "permissions": [
+    "create",
+    "read",
+    "update",
+    "delete"
+  ]
+},
+{
+  "_id": "user002",
+  "type": "user",
+  "username": "sarah",
+  "role": "employee",
+  "permissions": [
+    "read"
+  ]
+},
+{
+  "_id": "prod006",
+  "type": "product",
+  "name": "Disque Dur 30GO ",
+  "description": "Stockage externe de 30Go",
+  "price": 59.62,
+  "quantity_in_stock": 15,
+  "category_id": "cat004",
+  "date_added": "2025-05-28T14:16:12",
+  "status": "in_stock"
+}]
